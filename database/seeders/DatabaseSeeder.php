@@ -29,42 +29,42 @@ class DatabaseSeeder extends Seeder
             'name' => 'Rock Peters'
         ]);    
         
-        $category1 = Category::factory()->create([
-            'name' => 'Music',
+        // $category1 = Category::factory()->create([
+        //     'name' => 'Music',
 
-        ]);
+        // ]);
 
-        $category2 = Category::factory()->create([
-            'name' => 'Code and Programming',
+        // $category2 = Category::factory()->create([
+        //     'name' => 'Code and Programming',
             
-        ]) ; 
+        // ]) ; 
 
-        $category3 = Category::factory()->create([
-            'name' => 'Fashion',
+        // $category3 = Category::factory()->create([
+        //     'name' => 'Fashion',
             
-        ]) ;   
+        // ]) ;   
 
 
-        Post::factory(5)->create([
-            'user_id' => $author1->id,
-            'category_id' => $category1,
-        ]);
+        // Post::factory(5)->create([
+        //     'user_id' => $author1->id,
+        //     'category_id' => $category1,
+        // ]);
 
-        Post::factory(5)->create([
-            'user_id' => $author2->id,
-            'category_id' => $category2,
-        ]);
+        // Post::factory(5)->create([
+        //     'user_id' => $author2->id,
+        //     'category_id' => $category2,
+        // ]);
 
 
-        Post::factory(5)->create([
-            'user_id' => $author1->id,
-            'category_id' => $category3,
-        ]);
+        // Post::factory(5)->create([
+        //     'user_id' => $author1->id,
+        //     'category_id' => $category3,
+        // ]);
 
-        Post::factory(5)->create([
-            'user_id' => $author2->id,
-            'category_id' => $category1,
-        ]);
+        // Post::factory(5)->create([
+        //     'user_id' => $author2->id,
+        //     'category_id' => $category1,
+        // ]);
 
         
         
